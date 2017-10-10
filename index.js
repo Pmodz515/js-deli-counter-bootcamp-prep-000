@@ -10,3 +10,4 @@ if (array.length === 0) {
 else {
   return `Currently serving ${array.shift()}`
 }
+}
