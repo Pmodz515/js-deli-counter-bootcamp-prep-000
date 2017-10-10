@@ -23,7 +23,7 @@ function currentLine(katzDeliLine) {
         else {
             message = message + (i + 1) + '. '+ katzDeliLine[i] + ', '
         }
-      
+
     }
     return message
   }
