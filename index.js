@@ -20,7 +20,7 @@ function currentLine(katzDeliLine) {
     for (var i = 0; i < katzDeliLine.length; i++) {
       if (i + 1 == katzDeliLine.length) {
         message = message + (i + 1) + '. '+ katzDeliLine[i]
-        else {
+      } else {
             message = message + (i + 1) + '. '+ katzDeliLine[i] + ', '
         }
 
