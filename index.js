@@ -11,3 +11,19 @@ function nowServing(katzDeliLine){
     return 'Currently serving ' + name + '.'
   }
 }
+
+function currentLine(katzDeliLine) {
+  var message = 'The line is currently: '
+  if (katzDeliLine === 0) {
+    return 'The line is currently empty.'
+  } else {
+    for (var i = 0; i < katzDeliLine.length; i++) {
+      if (i + 1 == katzDeliLine.length) {
+        message = message + (i + 1) + '. '+ katzDeliLine[i]
+        else {
+            message = message + (i + 1) + '. '+ katzDeliLine[i] + ', '
+        }
+      }
+    }
+  }
+}
